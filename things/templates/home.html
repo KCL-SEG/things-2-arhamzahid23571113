@@ -8,13 +8,12 @@
   </h1>
   <p>Some stuff about things goes here.</p>
 
-  <!-- Form Starts Here -->
   <form method="post">
-      {% csrf_token %}
-      {{ form.as_p }}
-      <button type="submit">Submit</button>
-  </form>
-  <!-- Form Ends Here -->
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Submit</button>
+</form>
+
 
 </body>
 </html>
